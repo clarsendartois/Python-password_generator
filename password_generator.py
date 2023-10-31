@@ -13,9 +13,9 @@ Label(win, font=("Bookman Old Style", 12),
 
 
 # Creating Password_Generator() Function
-def password_generate(leng):
+def password_generate(lengh):
     valid_char = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@_.!&*+_^%$#"
-    password = " ".join(random.sample(valid_char, leng))
+    password = " ".join(random.sample(valid_char, lengh))
     p = Label(win, text=password, font=(
         "Arial Rounded MT Bold", 20), fg="green").place(x=110, y=230)
 
